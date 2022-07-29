@@ -1,3 +1,5 @@
+rootProject.name="parent-gitter"
+include("gitter-rest-api")
+include("gitter-cli")
 
-rootProject.name="gitter-rest-api"
 
