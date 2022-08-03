@@ -5,7 +5,7 @@
 - [Code Repository](https://github.com/softamo/gitter-rest-api)
 - [Releases](https://github.com/softamo/gitter-rest-api/releases)
 
-This project is a Java libray to consume the[Gitter REST API](https://developer.gitter.im/docs/rest-api). 
+This project is a Java libray to consume the [Gitter REST API](https://developer.gitter.im/docs/rest-api). 
 It is built with the [Micronaut](https://micronaut.io) Framework and you can use it in a Micronaut app or as a standalone library.
 
 ## Dependency snippet
@@ -27,7 +27,7 @@ To use it with https://maven.apache.org[Maven]:
 
 ## Usage
 
-If you want to use the library in Micronaut application, the library registers in the Micronaut's application context beans of type `como.softamo.gitter.restapi.GitterApi` and `como.softamo.gitter.restapi.BlockingGitterApi` if you have a bean of type `GitterConfiguration`. Providing configuration for your gitter token, registers a bean of type `GitterConfiguration. 
+If you want to use the library in a Micronaut application, the library registers in the Micronaut's application context beans of type `como.softamo.gitter.restapi.GitterApi` and `como.softamo.gitter.restapi.BlockingGitterApi` if you have a bean of type `GitterConfiguration`. Providing configuration for your gitter token, registers a bean of type `GitterConfiguration. 
 
 ```yaml
 gitter:
