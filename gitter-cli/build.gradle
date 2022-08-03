@@ -22,10 +22,9 @@ dependencies {
 application {
     mainClass.set("com.softamo.gitter.cli.GitterCliCommand")
 }
-java {
-    sourceCompatibility = JavaVersion.toVersion("11")
-    targetCompatibility = JavaVersion.toVersion("11")
-}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
 
 micronaut {
     testRuntime("junit5")
