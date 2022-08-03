@@ -12,13 +12,13 @@ It is built with the [Micronaut](https://micronaut.io) Framework and you can use
 
 To use it with https://gradle.org[Gradle]:
 
-`implementation 'com.softamo:gitter-rest-api:XXXX'`
+`implementation 'com.softamo.gitter:gitter-rest-api:XXXX'`
 
 To use it with https://maven.apache.org[Maven]:
 
 ```xml
 <dependency>
-    <groupId>com.softamo</groupId>
+    <groupId>com.softamo.gitter</groupId>
     <artifactId>gitter-rest-api</artifactId>
     <version>xxx</version>
     <type>pom</type>
